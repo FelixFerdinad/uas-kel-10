@@ -174,20 +174,19 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="subscribe.html">Subscribe</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ route('home')}}">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ route('about')}}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('contact')}}">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{ route('subscribe') }}">Subscribe</a>
+                  </li>     
         </div>
         <form class="d-flex">
             <div class="input-group">
