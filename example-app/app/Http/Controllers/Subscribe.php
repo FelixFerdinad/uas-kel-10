@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class subscribe extends Controller
+class Subscribe extends Controller
 {
     public function index()
     {

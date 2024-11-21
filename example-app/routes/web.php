@@ -11,7 +11,8 @@ use App\Http\Controllers\Subscribe;
 // });
 
 // Route::get('/', [HOme::class, 'index'])->name('main');
-Route::get('/', [HOme::class, 'index'])->name('main');
+Route::get('/', [Home::class, 'index'])->name('main');
+Route::get('/home', [Home::class, 'index'])->name('main');
 Route::get('/about', [About::class, 'index'])->name('about');
 Route::get('/contact', [Contact::class, 'index'])->name('contact');
 Route::get('/subscribe', [Subscribe::class, 'index'])->name('subscribe');
