@@ -96,7 +96,7 @@
               <a class="nav-link" href="{{ route('subscribe') }}">Subscribe</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('account') }}">SignIn</a>
+              <a class="nav-link" href="{{ route('account') }}">Login</a>
             </li>
           </ul>
         </div>
@@ -140,6 +140,9 @@
         </div>
         <button type="submit" class="btn btn-primary w-100">Login</button>
       </form>
+      <div class="text-center mt-3">
+        <p>Belum punya akun? <a href="{{ route('register') }}">Daftar di sini</a></p>
+      </div>
     </div>
   </body>
 </html>
